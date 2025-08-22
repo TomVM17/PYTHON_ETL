@@ -21,10 +21,32 @@ PYTHON_ETL/
 ├── .gitignore                      # Exclusiones para Git
 ├── readme.md                       # Documentación del proyecto (este archivo)
 └── set_up.bat                      # Script de configuración inicial
+```
+## 📖 Descripción del Notebook transformacion_eda.ipynb
+1. Carga de Datos  
+   - Lectura de Base_de_datos.csv  
+   - Revisión inicial de estructura y tamaño  
 
+2. Exploración Inicial  
+   - Caracterización de variables (numéricas, categóricas, ordinales, nominales, dicotómicas, politómicas)  
+   - Revisión y unificación de valores nulos  
+   - Eliminación de variables irrelevantes  
+   - Corrección de tipos de datos  
 
-# 5. Ejecutar el script de configuración (Windows)
-set_up.bat
+3. EDA (Exploratory Data Analysis)  
+   - Análisis univariable: histogramas, boxplots, medidas de tendencia central y dispersión.  
+   - Análisis bivariable: relación entre variables explicativas y la variable objetivo (mora/pago).  
+   - Análisis multivariable: correlaciones, pairplots, matrices de dispersión, tablas cruzadas.  
+
+4. Feature Engineering  
+   - Tratamiento de valores faltantes (imputación/eliminación).  
+   - Detección y corrección/eliminación de valores atípicos.  
+   - Creación de nuevas variables derivadas.  
+   - Codificación de variables categóricas.  
+   - Escalado y normalización de atributos.  
+
+5. Resultados  
+   - DataFrame limpio y transformado exportado en .csv listo para modelado.  
 
 
 
