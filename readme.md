@@ -49,9 +49,10 @@ PYTHON_ETL/
    - DataFrame limpio y transformado exportado en .csv listo para modelado.  
 
 ## 👨‍💻 Autor
-Tomás Enrique Vivares Molina
-Estudiante de ingeniería en ciencia de datos
-UPB-2025
+-Tomás Enrique Vivares Molina
+-Estudiante de ingeniería en ciencia de datos
+-UPB-2025
+
 
 
 
