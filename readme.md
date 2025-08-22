@@ -16,10 +16,11 @@ PYTHON_ETL/
 │       │   └── transformacion_eda.ipynb  # Notebook con el EDA y transformaciones
 │       └── config.json             # Configuración del proyecto
 │
-├── Base_de_datos.csv               # Datos fuente
+├── Base_de_datos.csv               # Datos del resultado del EDA
 ├── requirements.txt                # Dependencias del proyecto
 ├── .gitignore                      # Exclusiones para Git
 ├── readme.md                       # Documentación del proyecto (este archivo)
 └── set_up.bat                      # Script de configuración inicial
+
 
 
