@@ -22,21 +22,6 @@ PYTHON_ETL/
 ├── readme.md                       # Documentación del proyecto (este archivo)
 └── set_up.bat                      # Script de configuración inicial
 
-# 1. Clonar el repositorio
-git clone https://github.com/usuario/PYTHON_ETL.git
-cd PYTHON_ETL
-
-# 2. Crear el entorno virtual (opcional si usas el incluido)
-python -m venv venv
-
-# 3. Activar el entorno virtual
-# En Linux/Mac:
-source venv/bin/activate
-# En Windows:
-venv\Scripts\activate
-
-# 4. Instalar dependencias
-pip install -r requirements.txt
 
 # 5. Ejecutar el script de configuración (Windows)
 set_up.bat
